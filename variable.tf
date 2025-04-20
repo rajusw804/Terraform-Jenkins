@@ -5,7 +5,7 @@ variable "aws_region" {
 
 variable "key_name" {
   description = " SSH keys to connect to ec2 instance"
-  default     = "n_virginia_key"
+  default     = "vpc"
 }
 
 variable "instance_type" {
@@ -24,7 +24,7 @@ variable "tag_name" {
 }
 variable "ami_id" {
   description = "AMI for Amazonlinux Ec2 instance"
-  default     = "ami-090e0fc566929d98b"
+  default     = "ami-0182f373e66f89c85"
 }
 
 
